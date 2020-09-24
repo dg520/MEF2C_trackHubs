@@ -27,7 +27,7 @@ shortLabel HETDEL_MEF2C_WT
 longLabel HETDEL_MEF2C_WT
 parent HETDEL_MEF2C
 type bigWig
-color 51,51,255
+color 102,178,255
 
 track HETDEL_MEF2C_KO
 bigDataUrl contact_track_MEF2C_ko_VP2_NSC.bigwig
@@ -35,7 +35,7 @@ shortLabel HETDEL_MEF2C_KO
 longLabel HETDEL_MEF2C_KO
 parent HETDEL_MEF2C
 type bigWig
-color 255,51,51
+color 255,178,102
 
 track HETDEL_Proxy_Loop
 container multiWig
@@ -55,7 +55,7 @@ shortLabel HETDEL_Proxy_Loop_WT
 longLabel HETDEL_Proxy_Loop_WT
 parent HETDEL_Proxy_Loop
 type bigWig
-color 51,51,255
+color 102,178,255
 
 track HETDEL_Proxy_Loop_KO
 bigDataUrl contact_track_Proxy_Loop_ko_VP2_NSC.bigwig
@@ -63,7 +63,7 @@ shortLabel HETDEL_Proxy_Loop_KO
 longLabel HETDEL_Proxy_Loop_KO
 parent HETDEL_Proxy_Loop
 type bigWig
-color 255,51,51
+color 255,178,102
 
 track HETDEL_Proxy_TAD
 container multiWig
@@ -83,7 +83,7 @@ shortLabel HETDEL_Proxy_TAD_WT
 longLabel HETDEL_Proxy_TAD_WT
 parent HETDEL_Proxy_TAD
 type bigWig
-color 51,51,255
+color 102,178,255
 
 track HETDEL_Proxy_TAD_KO
 bigDataUrl contact_track_Proxy_TAD_ko_VP2_NSC.bigwig
@@ -91,7 +91,7 @@ shortLabel HETDEL_Proxy_TAD_KO
 longLabel HETDEL_Proxy_TAD_KO
 parent HETDEL_Proxy_TAD
 type bigWig
-color 255,51,51
+color 255,178,102
 
 track HETDEL_Insulator
 container multiWig
@@ -111,7 +111,7 @@ shortLabel HETDEL_Insulator_WT
 longLabel HETDEL_Insulator_WT
 parent HETDEL_Insulator
 type bigWig
-color 51,51,255
+color 102,178,255
 
 track HETDEL_Insulator_KO
 bigDataUrl contact_track_Insulator_ko_VP2_NSC.bigwig
@@ -119,7 +119,7 @@ shortLabel HETDEL_Insulator_KO
 longLabel HETDEL_Insulator_KO
 parent HETDEL_Insulator
 type bigWig
-color 255,51,51
+color 255,178,102
 
 track HETDEL_LRG
 container multiWig
@@ -139,7 +139,7 @@ shortLabel HETDEL_LRG_WT
 longLabel HETDEL_LRG_WT
 parent HETDEL_LRG
 type bigWig
-color 51,51,255
+color 102,178,255
 
 track HETDEL_LRG_KO
 bigDataUrl contact_track_LRG_ko_VP2_NSC.bigwig
@@ -147,7 +147,7 @@ shortLabel HETDEL_LRG_KO
 longLabel HETDEL_LRG_KO
 parent HETDEL_LRG
 type bigWig
-color 255,51,51
+color 255,178,102
 
 track HETDEL_Distal_Loop
 container multiWig
@@ -167,7 +167,7 @@ shortLabel HETDEL_Distal_Loop_WT
 longLabel HETDEL_Distal_Loop_WT
 parent HETDEL_Distal_Loop
 type bigWig
-color 51,51,255
+color 102,178,255
 
 track HETDEL_Distal_Loop_KO
 bigDataUrl contact_track_Distal_Loop_ko_VP2_NSC.bigwig
@@ -175,4 +175,4 @@ shortLabel HETDEL_Distal_Loop_KO
 longLabel HETDEL_Distal_Loop_KO
 parent HETDEL_Distal_Loop
 type bigWig
-color 255,51,51
+color 255,178,102
