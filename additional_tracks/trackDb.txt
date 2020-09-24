@@ -3,7 +3,7 @@ shortLabel CRISPR Locus
 longLabel CRISPR Locus
 type bigBed 6 .
 bigDataUrl 5q14_CRISPR_targets.bigbed
-colorByStrand 0,0,0 0,0,0
+color 160,160,160
 visibility dense
 labelOnFeature off
 exonArrows off
