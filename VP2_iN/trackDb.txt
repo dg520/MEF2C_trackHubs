@@ -49,6 +49,8 @@ maxHeightPixels 128:60:11
 autoscale on
 alwaysZero on
 color 255,51,153
+yLineOnOff on
+yLineMark 0.0
 
 track HETDEL_Proxy_Loop
 container multiWig
@@ -90,6 +92,8 @@ maxHeightPixels 128:60:11
 autoscale on
 alwaysZero on
 color 255,51,153
+yLineOnOff on
+yLineMark 0.0
 
 track HETDEL_Proxy_TAD
 container multiWig
@@ -131,6 +135,8 @@ maxHeightPixels 128:60:11
 autoscale on
 alwaysZero on
 color 255,51,153
+yLineOnOff on
+yLineMark 0.0
 
 track HETDEL_Insulator
 container multiWig
@@ -172,6 +178,8 @@ maxHeightPixels 128:60:11
 autoscale on
 alwaysZero on
 color 255,51,153
+yLineOnOff on
+yLineMark 0.0
 
 track HETDEL_LRG
 container multiWig
@@ -213,6 +221,8 @@ maxHeightPixels 128:60:11
 autoscale on
 alwaysZero on
 color 255,51,153
+yLineOnOff on
+yLineMark 0.0
 
 track HETDEL_Distal_Loop
 container multiWig
@@ -254,3 +264,5 @@ maxHeightPixels 128:60:11
 autoscale on
 alwaysZero on
 color 255,51,153
+yLineOnOff on
+yLineMark 0.0
