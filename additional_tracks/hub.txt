@@ -1,0 +1,6 @@
+hub Additional_Info_Hub
+shortLabel Additional Info Hub
+longLabel Additional Info Hub
+genomesFile genomes.txt
+email dgao2@mgh.harvard.edu
+descriptionUrl index.html
