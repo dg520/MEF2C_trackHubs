@@ -11,8 +11,8 @@ autoscale on
 
 track MEF2C
 type bigWig 0 1000
-shortLabel MEF2C
-longLabel MEF2C
+shortLabel HomDel MEF2C
+longLabel HomDel MEF2C
 bigDataUrl contact_track_MEF2C_VP1_iN.bigwig
 viewLimits 0:20
 viewLimitsMax 0:1000
@@ -20,10 +20,25 @@ visibility full
 maxHeightPixels 128:60:11
 autoscale on
 
+track LFC_MEF2C
+type bigWig -100 100
+shortLabel MEF2C log2FC
+longLabel MEF2C log2FC (KO vs WT)
+bigDataUrl dec_sum_Genotype_win5000_VP1_iN_HOMDEL_MEF2C_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,51,153
+yLineOnOff on
+yLineMark 0.0
+
 track Proxy_Loop
 type bigWig 0 1000
-shortLabel Proxy_Loop
-longLabel Proxy_Loop
+shortLabel HomDel Proximal Loop
+longLabel HomDel Proximal Loop
 bigDataUrl contact_track_Proxy_Loop_VP1_iN.bigwig
 viewLimits 0:20
 viewLimitsMax 0:1000
@@ -31,13 +46,43 @@ visibility full
 maxHeightPixels 128:60:11
 autoscale on
 
+track LFC_Proxy_Loop
+type bigWig -100 100
+shortLabel Proximal Loop log2FC
+longLabel Proximal Loop log2FC (KO vs WT)
+bigDataUrl dec_sum_Genotype_win5000_VP1_iN_HOMDEL_Proximal_Loop_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,51,153
+yLineOnOff on
+yLineMark 0.0
+
 track Proxy_TAD
 type bigWig 0 1000
-shortLabel Proxy_TAD
-longLabel Proxy_TAD
+shortLabel HomDel Proximal TAD
+longLabel HomDel Proximal TAD
 bigDataUrl contact_track_Proxy_TAD_VP1_iN.bigwig
 viewLimits 0:20
 viewLimitsMax 0:1000
 visibility full
 maxHeightPixels 128:60:11
 autoscale on
+
+track LFC_Proxy_TAD
+type bigWig -100 100
+shortLabel Proximal TAD log2FC
+longLabel Proximal TAD log2FC (KO vs WT)
+bigDataUrl dec_sum_Genotype_win5000_VP1_iN_HOMDEL_Proximal_TAD_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,51,153
+yLineOnOff on
+yLineMark 0.0

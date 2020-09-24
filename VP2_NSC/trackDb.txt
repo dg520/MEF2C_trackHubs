@@ -12,8 +12,8 @@ autoscale on
 track HETDEL_MEF2C
 container multiWig
 type bigWig 0 1000
-shortLabel HETDEL_MEF2C
-longLabel HETDEL_MEF2C
+shortLabel HetDel MEF2C
+longLabel HetDel MEF2C
 viewLimits 0:20
 viewLimitsMax 0:1000
 visibility full
@@ -23,25 +23,40 @@ aggregate transparentOverlay
 
 track HETDEL_MEF2C_WT
 bigDataUrl contact_track_MEF2C_wt_VP2_NSC.bigwig
-shortLabel HETDEL_MEF2C_WT
-longLabel HETDEL_MEF2C_WT
+shortLabel HetDel MEF2C WT
+longLabel HetDel MEF2C WT
 parent HETDEL_MEF2C
 type bigWig
 color 102,178,255
 
 track HETDEL_MEF2C_KO
 bigDataUrl contact_track_MEF2C_ko_VP2_NSC.bigwig
-shortLabel HETDEL_MEF2C_KO
-longLabel HETDEL_MEF2C_KO
+shortLabel HetDel MEF2C KO
+longLabel HetDel MEF2C KO
 parent HETDEL_MEF2C
 type bigWig
 color 255,178,102
 
+track LFC_MEF2C
+type bigWig -100 100
+shortLabel MEF2C log2FC
+longLabel MEF2C log2FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_NSC_HETDEL_MEF2C_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,51,153
+yLineOnOff on
+yLineMark 0.0
+
 track HETDEL_Proxy_Loop
 container multiWig
 type bigWig 0 1000
-shortLabel HETDEL_Proxy_Loop
-longLabel HETDEL_Proxy_Loop
+shortLabel HetDel Proximal Loop
+longLabel HetDel Proximal Loop
 viewLimits 0:20
 viewLimitsMax 0:1000
 visibility full
@@ -51,25 +66,40 @@ aggregate transparentOverlay
 
 track HETDEL_Proxy_Loop_WT
 bigDataUrl contact_track_Proxy_Loop_wt_VP2_NSC.bigwig
-shortLabel HETDEL_Proxy_Loop_WT
-longLabel HETDEL_Proxy_Loop_WT
+shortLabel HetDel Proximal Loop WT
+longLabel HetDel Proximal Loop WT
 parent HETDEL_Proxy_Loop
 type bigWig
 color 102,178,255
 
 track HETDEL_Proxy_Loop_KO
 bigDataUrl contact_track_Proxy_Loop_ko_VP2_NSC.bigwig
-shortLabel HETDEL_Proxy_Loop_KO
-longLabel HETDEL_Proxy_Loop_KO
+shortLabel HetDel Proximal Loop KO
+longLabel HetDel Proximal Loop KO
 parent HETDEL_Proxy_Loop
 type bigWig
 color 255,178,102
 
+track LFC_Proxy_Loop
+type bigWig -100 100
+shortLabel Proximal Loop log2FC
+longLabel Proximal Loop log2FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_NSC_HETDEL_Proximal_Loop_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,51,153
+yLineOnOff on
+yLineMark 0.0
+
 track HETDEL_Proxy_TAD
 container multiWig
 type bigWig 0 1000
-shortLabel HETDEL_Proxy_TAD
-longLabel HETDEL_Proxy_TAD
+shortLabel HetDel Proximal TAD
+longLabel HetDel Proximal TAD
 viewLimits 0:20
 viewLimitsMax 0:1000
 visibility full
@@ -79,25 +109,40 @@ aggregate transparentOverlay
 
 track HETDEL_Proxy_TAD_WT
 bigDataUrl contact_track_Proxy_TAD_wt_VP2_NSC.bigwig
-shortLabel HETDEL_Proxy_TAD_WT
-longLabel HETDEL_Proxy_TAD_WT
+shortLabel HetDel Proximal TAD WT
+longLabel HetDel Proximal TAD WT
 parent HETDEL_Proxy_TAD
 type bigWig
 color 102,178,255
 
 track HETDEL_Proxy_TAD_KO
 bigDataUrl contact_track_Proxy_TAD_ko_VP2_NSC.bigwig
-shortLabel HETDEL_Proxy_TAD_KO
-longLabel HETDEL_Proxy_TAD_KO
+shortLabel HetDel Proximal TAD KO
+longLabel HetDel Proximal TAD KO
 parent HETDEL_Proxy_TAD
 type bigWig
 color 255,178,102
 
+track LFC_Proxy_TAD
+type bigWig -100 100
+shortLabel Proximal TAD log2FC
+longLabel Proximal TAD log2FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_NSC_HETDEL_Proximal_TAD_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,51,153
+yLineOnOff on
+yLineMark 0.0
+
 track HETDEL_Insulator
 container multiWig
 type bigWig 0 1000
-shortLabel HETDEL_Insulator
-longLabel HETDEL_Insulator
+shortLabel HetDel Insulator
+longLabel HetDel Insulator
 viewLimits 0:20
 viewLimitsMax 0:1000
 visibility full
@@ -107,25 +152,40 @@ aggregate transparentOverlay
 
 track HETDEL_Insulator_WT
 bigDataUrl contact_track_Insulator_wt_VP2_NSC.bigwig
-shortLabel HETDEL_Insulator_WT
-longLabel HETDEL_Insulator_WT
+shortLabel HetDel Insulator WT
+longLabel HetDel Insulator WT
 parent HETDEL_Insulator
 type bigWig
 color 102,178,255
 
 track HETDEL_Insulator_KO
 bigDataUrl contact_track_Insulator_ko_VP2_NSC.bigwig
-shortLabel HETDEL_Insulator_KO
-longLabel HETDEL_Insulator_KO
+shortLabel HetDel Insulator KO
+longLabel HetDel Insulator KO
 parent HETDEL_Insulator
 type bigWig
 color 255,178,102
 
+track LFC_Insulator
+type bigWig -100 100
+shortLabel Insulator log2FC
+longLabel Insulator log2FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_NSC_HETDEL_Insulator_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,51,153
+yLineOnOff on
+yLineMark 0.0
+
 track HETDEL_LRG
 container multiWig
 type bigWig 0 1000
-shortLabel HETDEL_LRG
-longLabel HETDEL_LRG
+shortLabel HetDel LRG
+longLabel HetDel LRG
 viewLimits 0:20
 viewLimitsMax 0:1000
 visibility full
@@ -135,25 +195,40 @@ aggregate transparentOverlay
 
 track HETDEL_LRG_WT
 bigDataUrl contact_track_LRG_wt_VP2_NSC.bigwig
-shortLabel HETDEL_LRG_WT
-longLabel HETDEL_LRG_WT
+shortLabel HetDel LRG WT
+longLabel HetDel LRG WT
 parent HETDEL_LRG
 type bigWig
 color 102,178,255
 
 track HETDEL_LRG_KO
 bigDataUrl contact_track_LRG_ko_VP2_NSC.bigwig
-shortLabel HETDEL_LRG_KO
-longLabel HETDEL_LRG_KO
+shortLabel HetDel LRG KO
+longLabel HetDel LRG KO
 parent HETDEL_LRG
 type bigWig
 color 255,178,102
 
+track LFC_LRG
+type bigWig -100 100
+shortLabel LRG log2FC
+longLabel LRG log2FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_NSC_HETDEL_LRG_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,51,153
+yLineOnOff on
+yLineMark 0.0
+
 track HETDEL_Distal_Loop
 container multiWig
 type bigWig 0 1000
-shortLabel HETDEL_Distal_Loop
-longLabel HETDEL_Distal_Loop
+shortLabel HetDel Distal Loop
+longLabel HetDel Distal Loop
 viewLimits 0:20
 viewLimitsMax 0:1000
 visibility full
@@ -163,16 +238,31 @@ aggregate transparentOverlay
 
 track HETDEL_Distal_Loop_WT
 bigDataUrl contact_track_Distal_Loop_wt_VP2_NSC.bigwig
-shortLabel HETDEL_Distal_Loop_WT
-longLabel HETDEL_Distal_Loop_WT
+shortLabel HetDel Distal Loop WT
+longLabel HetDel Distal Loop WT
 parent HETDEL_Distal_Loop
 type bigWig
 color 102,178,255
 
 track HETDEL_Distal_Loop_KO
 bigDataUrl contact_track_Distal_Loop_ko_VP2_NSC.bigwig
-shortLabel HETDEL_Distal_Loop_KO
-longLabel HETDEL_Distal_Loop_KO
+shortLabel HetDel Distal Loop KO
+longLabel HetDel Distal Loop KO
 parent HETDEL_Distal_Loop
 type bigWig
 color 255,178,102
+
+track LFC_Distal_Loop
+type bigWig -100 100
+shortLabel Distal Loop log2FC
+longLabel Distal Loop log2FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_NSC_HETDEL_Distal_Loop_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,51,153
+yLineOnOff on
+yLineMark 0.0
