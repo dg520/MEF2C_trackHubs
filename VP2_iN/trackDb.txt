@@ -37,6 +37,19 @@ parent HETDEL_MEF2C
 type bigWig
 color 255,178,102
 
+track LFC_MEF2C
+type bigWig -100 100
+shortLabel HETDEL MEF2C log2-FC
+longLabel HETDEL MEF2C log2-FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_iN_HETDEL_MEF2C_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,128,0
+
 track HETDEL_Proxy_Loop
 container multiWig
 type bigWig 0 1000
@@ -64,6 +77,19 @@ longLabel HETDEL_Proxy_Loop_KO
 parent HETDEL_Proxy_Loop
 type bigWig
 color 255,178,102
+
+track LFC_Proxy_Loop
+type bigWig -100 100
+shortLabel HETDEL Proxy Loop log2-FC
+longLabel HETDEL Proxy Loop log2-FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_iN_HETDEL_Proxy_Loop_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,128,0
 
 track HETDEL_Proxy_TAD
 container multiWig
@@ -93,6 +119,19 @@ parent HETDEL_Proxy_TAD
 type bigWig
 color 255,178,102
 
+track LFC_Proxy_TAD
+type bigWig -100 100
+shortLabel HETDEL Proxy TAD log2-FC
+longLabel HETDEL Proxy TAD log2-FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_iN_HETDEL_Proxy_TAD_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,128,0
+
 track HETDEL_Insulator
 container multiWig
 type bigWig 0 1000
@@ -120,6 +159,19 @@ longLabel HETDEL_Insulator_KO
 parent HETDEL_Insulator
 type bigWig
 color 255,178,102
+
+track LFC_Insulator
+type bigWig -100 100
+shortLabel HETDEL Insulator log2-FC
+longLabel HETDEL Insulator log2-FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_iN_HETDEL_Insulator_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,128,0
 
 track HETDEL_LRG
 container multiWig
@@ -149,6 +201,19 @@ parent HETDEL_LRG
 type bigWig
 color 255,178,102
 
+track LFC_LRG
+type bigWig -100 100
+shortLabel HETDEL LRG log2-FC
+longLabel HETDEL LRG log2-FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_iN_HETDEL_LRG_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,128,0
+
 track HETDEL_Distal_Loop
 container multiWig
 type bigWig 0 1000
@@ -176,3 +241,16 @@ longLabel HETDEL_Distal_Loop_KO
 parent HETDEL_Distal_Loop
 type bigWig
 color 255,178,102
+
+track LFC_Distal_Loop
+type bigWig -100 100
+shortLabel HETDEL Distal Loop log2-FC
+longLabel HETDEL Distal Loop log2-FC (KO vs WT allele)
+bigDataUrl dec_sum_alleleGenotype_win5000_VP2_iN_HETDEL_Distal_Loop_vs_WT.sig_fdr01.filtered.nonOverlap.bigwig
+viewLimits -5:5
+viewLimitsMax -10:10
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+alwaysZero on
+color 255,128,0
