@@ -1,0 +1,3 @@
+genome hg19
+trackDb trackDb.txt
+defaultPos 5:86750000-90250000

@@ -1,0 +1,43 @@
+track WT
+type bigWig 0 1000
+shortLabel WT
+longLabel WT
+bigDataUrl contact_track_WT_VP1_NSC.bigwig
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+
+track MEF2C
+type bigWig 0 1000
+shortLabel MEF2C
+longLabel MEF2C
+bigDataUrl contact_track_MEF2C_VP1_NSC.bigwig
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+
+track Proxy_Loop
+type bigWig 0 1000
+shortLabel Proxy_Loop
+longLabel Proxy_Loop
+bigDataUrl contact_track_Proxy_Loop_VP1_NSC.bigwig
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+
+track Proxy_TAD
+type bigWig 0 1000
+shortLabel Proxy_TAD
+longLabel Proxy_TAD
+bigDataUrl contact_track_Proxy_TAD_VP1_NSC.bigwig
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on

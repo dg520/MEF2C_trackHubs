@@ -1,0 +1,6 @@
+hub VP2_NSC_Hub
+shortLabel VP2 NSC Hub
+longLabel VP2 NSC Hub
+genomesFile genomes.txt
+email dgao2@mgh.harvard.edu
+descriptionUrl index.html

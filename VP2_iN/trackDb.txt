@@ -1,0 +1,178 @@
+track WT
+type bigWig 0 1000
+shortLabel WT
+longLabel WT
+bigDataUrl contact_track_WT_VP2_iN.bigwig
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+
+track HETDEL_MEF2C
+container multiWig
+type bigWig 0 1000
+shortLabel HETDEL_MEF2C
+longLabel HETDEL_MEF2C
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+aggregate transparentOverlay
+
+track HETDEL_MEF2C_WT
+bigDataUrl contact_track_MEF2C_wt_VP2_iN.bigwig
+shortLabel HETDEL_MEF2C_WT
+longLabel HETDEL_MEF2C_WT
+parent HETDEL_MEF2C
+type bigWig
+color 51,51,255
+
+track HETDEL_MEF2C_KO
+bigDataUrl contact_track_MEF2C_ko_VP2_iN.bigwig
+shortLabel HETDEL_MEF2C_KO
+longLabel HETDEL_MEF2C_KO
+parent HETDEL_MEF2C
+type bigWig
+color 255,51,51
+
+track HETDEL_Proxy_Loop
+container multiWig
+type bigWig 0 1000
+shortLabel HETDEL_Proxy_Loop
+longLabel HETDEL_Proxy_Loop
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+aggregate transparentOverlay
+
+track HETDEL_Proxy_Loop_WT
+bigDataUrl contact_track_Proxy_Loop_wt_VP2_iN.bigwig
+shortLabel HETDEL_Proxy_Loop_WT
+longLabel HETDEL_Proxy_Loop_WT
+parent HETDEL_Proxy_Loop
+type bigWig
+color 51,51,255
+
+track HETDEL_Proxy_Loop_KO
+bigDataUrl contact_track_Proxy_Loop_ko_VP2_iN.bigwig
+shortLabel HETDEL_Proxy_Loop_KO
+longLabel HETDEL_Proxy_Loop_KO
+parent HETDEL_Proxy_Loop
+type bigWig
+color 255,51,51
+
+track HETDEL_Proxy_TAD
+container multiWig
+type bigWig 0 1000
+shortLabel HETDEL_Proxy_TAD
+longLabel HETDEL_Proxy_TAD
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+aggregate transparentOverlay
+
+track HETDEL_Proxy_TAD_WT
+bigDataUrl contact_track_Proxy_TAD_wt_VP2_iN.bigwig
+shortLabel HETDEL_Proxy_TAD_WT
+longLabel HETDEL_Proxy_TAD_WT
+parent HETDEL_Proxy_TAD
+type bigWig
+color 51,51,255
+
+track HETDEL_Proxy_TAD_KO
+bigDataUrl contact_track_Proxy_TAD_ko_VP2_iN.bigwig
+shortLabel HETDEL_Proxy_TAD_KO
+longLabel HETDEL_Proxy_TAD_KO
+parent HETDEL_Proxy_TAD
+type bigWig
+color 255,51,51
+
+track HETDEL_Insulator
+container multiWig
+type bigWig 0 1000
+shortLabel HETDEL_Insulator
+longLabel HETDEL_Insulator
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+aggregate transparentOverlay
+
+track HETDEL_Insulator_WT
+bigDataUrl contact_track_Insulator_wt_VP2_iN.bigwig
+shortLabel HETDEL_Insulator_WT
+longLabel HETDEL_Insulator_WT
+parent HETDEL_Insulator
+type bigWig
+color 51,51,255
+
+track HETDEL_Insulator_KO
+bigDataUrl contact_track_Insulator_ko_VP2_iN.bigwig
+shortLabel HETDEL_Insulator_KO
+longLabel HETDEL_Insulator_KO
+parent HETDEL_Insulator
+type bigWig
+color 255,51,51
+
+track HETDEL_LRG
+container multiWig
+type bigWig 0 1000
+shortLabel HETDEL_LRG
+longLabel HETDEL_LRG
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+aggregate transparentOverlay
+
+track HETDEL_LRG_WT
+bigDataUrl contact_track_LRG_wt_VP2_iN.bigwig
+shortLabel HETDEL_LRG_WT
+longLabel HETDEL_LRG_WT
+parent HETDEL_LRG
+type bigWig
+color 51,51,255
+
+track HETDEL_LRG_KO
+bigDataUrl contact_track_LRG_ko_VP2_iN.bigwig
+shortLabel HETDEL_LRG_KO
+longLabel HETDEL_LRG_KO
+parent HETDEL_LRG
+type bigWig
+color 255,51,51
+
+track HETDEL_Distal_Loop
+container multiWig
+type bigWig 0 1000
+shortLabel HETDEL_Distal_Loop
+longLabel HETDEL_Distal_Loop
+viewLimits 0:20
+viewLimitsMax 0:1000
+visibility full
+maxHeightPixels 128:60:11
+autoscale on
+aggregate transparentOverlay
+
+track HETDEL_Distal_Loop_WT
+bigDataUrl contact_track_Distal_Loop_wt_VP2_iN.bigwig
+shortLabel HETDEL_Distal_Loop_WT
+longLabel HETDEL_Distal_Loop_WT
+parent HETDEL_Distal_Loop
+type bigWig
+color 51,51,255
+
+track HETDEL_Distal_Loop_KO
+bigDataUrl contact_track_Distal_Loop_ko_VP2_iN.bigwig
+shortLabel HETDEL_Distal_Loop_KO
+longLabel HETDEL_Distal_Loop_KO
+parent HETDEL_Distal_Loop
+type bigWig
+color 255,51,51
