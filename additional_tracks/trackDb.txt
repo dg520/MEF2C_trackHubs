@@ -4,7 +4,7 @@ longLabel CRISPR Locus
 type bigBed 6 .
 bigDataUrl 5q14_CRISPR_targets.bigbed
 colorByStrand 0,0,0 0,0,0
-labelOnFeature on
+labelOnFeature off
 exonArrows off
 exonNumbers off
 
@@ -13,7 +13,7 @@ shortLabel Enhancers
 longLabel Enhancers
 type bigBed 4 .
 bigDataUrl enhancer_candidates.bigbed
-colorByStrand 0,0,255 0,0,255
-labelOnFeature on
+color 0,204,0
+labelOnFeature off
 exonArrows off
 exonNumbers off
